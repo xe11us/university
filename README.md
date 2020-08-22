@@ -4,3 +4,4 @@
 * [Большие задачи](cpp/big-tasks)
 ## [Парадигмы программирования](programming)
 * [Первый семестр](programming/first-semester)
+* [Второй семестр](programming/second-semester)
