@@ -6,7 +6,7 @@
 
 # Условия задач:	
 
-## Домашнее задание 13. Обработка ошибок
+## [Домашнее задание 13. Обработка ошибок](https://github.com/xe11us/university/tree/master/programming/second-semester/java-expression)
 
 1.  Добавьте в программу вычисляющую выражения обработку ошибок, в том числе:
     *   ошибки разбора выражений;
@@ -46,7 +46,7 @@
         * `pow2` – два в степени, `pow2 4` равно 16.
 
 
-## Домашнее задание 12. Разбор выражений
+## [Домашнее задание 12. Разбор выражений](https://github.com/xe11us/university/tree/master/programming/second-semester/java-expression)
 
 1.  Доработайте предыдущее домашнее задание, так что бы выражение строилось по записи вида
 
@@ -79,7 +79,7 @@
         * `square` – возведение в квадрат, `square -5` равно 25.
 
 
-## Домашнее задание 11. Выражения
+## [Домашнее задание 11. Выражения](https://github.com/xe11us/university/tree/master/programming/first-semester/expressions)
 
 1.  Разработайте классы `Const`, `Variable`, `Add`, `Subtract`, `Multiply`, `Divide` для вычисления выражений с одной переменной.
 2.  Классы должны позволять составлять выражения вида
@@ -146,7 +146,7 @@
     * Дополнительно реализуйте интерфейс TripleExpression
 
 
-## Домашнее задание 10. Игра n,m,k
+## [Домашнее задание 10. Игра n,m,k](https://github.com/xe11us/university/tree/master/programming/first-semester/tic-tac-toe)
 
 1.  Реализуйте [игру m,n,k](https://en.wikipedia.org/wiki/M,n,k-game).
 2.  Добавьте обработку ошибок ввода пользователя.
@@ -173,7 +173,7 @@
     * Стороны в матче должны меняться каждую игру
 
 
-## Домашнее задание 9. Markdown to HTML
+## [Домашнее задание 9. Markdown to HTML](https://github.com/xe11us/university/tree/master/programming/first-semester/markdown-to-html)
 
 1.  Разработайте конвертер из [Markdown](https://ru.wikipedia.org/wiki/Markdown)-разметки в [HTML](https://ru.wikipedia.org/wiki/HTML).
 2.  Конвертер должен поддерживать следующие возможности:
@@ -295,7 +295,7 @@
         ```&lt;img alt='картинок' src='http://www.ifmo.ru/images/menu/small/p10.jpg'&gt;```
 
 
-## Домашнее задание 7. Разметка
+## [Домашнее задание 7. Разметка](https://github.com/xe11us/university/tree/master/programming/first-semester/markdown)
 
 1.  Разработайте набор классов для текстовой разметки.
 2.  Класс <tt>Paragraph</tt> может содержать произвольное число других элементов разметки и текстовых элементов.
@@ -356,7 +356,7 @@
     * Для новых классов поддержка Markdown не требуется
 
 
-## Домашнее задание 6. Подсчет слов++
+## [Домашнее задание 6. Подсчет слов++](https://github.com/xe11us/university/tree/master/programming/first-semester/word-stat-scanner)
 
 1.  Разработайте класс `WordStatIndex`, который будет подсчитывать статистику встречаемости слов во входном файле.
 2.  Словом называется непрерывная последовательность букв, апострофов и тире (Unicode category Punctuation, Dash). Для подсчета статистики, слова приводятся к нижнему регистру.
@@ -442,7 +442,7 @@
     * Класс должен иметь имя `WordStatSortedLastIndex`
 
 
-## Домашнее задание 5. Свой сканнер
+## [Домашнее задание 5. Свой сканнер](https://github.com/xe11us/university/blob/master/programming/first-semester/word-stat-scanner/MyScanner.java)
 
 1.  Реализуйте свой аналог класса `Scanner` на основе `Reader`.
 2.  Примените разработанный `Scanner` для решения задания «Реверс».
@@ -465,7 +465,7 @@
     * Класс должен иметь имя `ReverseMin`
 
 
-## Домашнее задание 4. Подсчет слов
+## [Домашнее задание 4. Подсчет слов](https://github.com/xe11us/university/tree/master/programming/first-semester/word-stat-scanner)
 
 1.  Разработайте класс `WordStat`, который будет подсчитывать статистику встречаемости слов во входном файле.
 2.  Словом называется непрерывная последовательность букв, апострофов и тире (Unicode category Punctuation, Dash). Для подсчета статистики, слова приводятся к нижнему регистру.
@@ -541,7 +541,7 @@
     * Класс должен иметь имя `WordStatCount`
 
 
-## Домашнее задание 3. Реверс
+## [Домашнее задание 3. Реверс](https://github.com/xe11us/university/tree/master/programming/first-semester/reverse)
 
 1.  Разработайте класс `Reverse`, читающий числа из стандартного входа, и выводящий их на стандартный вывод в обратном порядке.
 2.  В каждой строке входа содержится некоторое количество целых чисел (может быть 0). Числа разделены пробелами. Каждое число помещается в тип `int`.
@@ -588,7 +588,7 @@
     * Класс должен иметь имя `ReverseSum`
 
 
-## Домашнее задание 2. Сумма чисел
+## [Домашнее задание 2. Сумма чисел](https://github.com/xe11us/university/tree/master/programming/first-semester/sum)
 
 1.  Разработайте класс `Sum`, который при запуске из командной строки будет складывать переданные в качестве аргументов целые числа и выводить их сумму на консоль.
 2.  Примеры запуска программы:
