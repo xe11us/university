@@ -38,7 +38,7 @@
       возвращающее число ключей в диапазоне `[FromKey, ToKey)`.
 
 
-## Домашнее задание 13. Простые числа на Prolog
+## [Домашнее задание 13. Простые числа на Prolog](https://github.com/xe11us/university/tree/master/programming/second-semester/prolog-prime)
 
 1. Разработайте правила:  
       - `prime(N)`, проверяющее, что `N` – простое число.  
@@ -103,7 +103,7 @@
         * операции по увеличению приоритета: `<=>`, `=>`, `^`, `|`, `&`, `+` и `-`, `*` и `/`
 
 
-## Домашнее задание 11. Объектные выражения на Clojure
+## [Домашнее задание 11. Объектные выражения на Clojure](https://github.com/xe11us/university/tree/master/programming/second-semester/clojure-expression)
 
 1. Разработайте конструкторы `Constant`, `Variable`, `Add`, `Subtract`, `Multiply` и `Divide` для представления выражений с одной переменной.  
 - Пример описания выражения `2x-3`:  
@@ -157,7 +157,7 @@
         * `Softmax` (`Softmax`) – [softmax](https://ru.wikipedia.org/wiki/Softmax) первого аргумента, `(softmax 1 2 3)` примерно равно 0.09;
 
 
-## Домашнее задание 10. Функциональные выражения на Clojure
+## [Домашнее задание 10. Функциональные выражения на Clojure](https://github.com/xe11us/university/tree/master/programming/second-semester/clojure-expression)
 
 1. Разработайте функции `constant`, `variable`, `add`, `subtract`, `multiply` и `divide` для представления арифметических выражений.
 - Пример описания выражения `2x-3`:
@@ -200,7 +200,7 @@
         * `softmax` – [softmax](https://ru.wikipedia.org/wiki/Softmax) первого аргумента, `(softmax 1 2 3)` примерно равно 0.09;
 
 
-## Домашнее задание 9. Линейная алгебра на Clojure
+## [Домашнее задание 9. Линейная алгебра на Clojure](https://github.com/xe11us/university/tree/master/programming/second-semester/clojure-linear)
 
 1. Разработайте функции для работы с объектами линейной алгебры, которые представляются следующим образом:
 - скаляры – числа
@@ -269,7 +269,7 @@
       быть равно `[ [111 221 331] [141 251 361] ]`.
 
 
-## Домашнее задание 8. Обработка ошибок на JavaScript
+## [Домашнее задание 8. Обработка ошибок на JavaScript](https://github.com/xe11us/university/tree/master/programming/second-semester/javascript-functional-object-expression)
 
 1. Добавьте в предыдущее домашнее задание функцию `parsePrefix(string)`, разбирающую выражения, задаваемые записью вида `(- (* 2 x) 3)`. Если разбираемое выражение некорректно, метод `parsePrefix` должен бросать человеко-читаемое сообщение об ошибке.
 2. Добавьте в предыдущее домашнее задание метод `prefix()`, выдающий выражение в формате, ожидаемом функцией `parsePrefix`.
@@ -311,7 +311,7 @@
         * `Var` (`var`) – дисперсию аргументов, `(2 5 11 var)` равно 14;
 
 
-## Домашнее задание 7. Объектные выражения на JavaScript
+## [Домашнее задание 7. Объектные выражения на JavaScript](https://github.com/xe11us/university/tree/master/programming/second-semester/javascript-functional-object-expression)
 
 1. Разработайте классы `Const`, `Variable`, `Add`, `Subtract`, `Multiply`, `Divide`, `Negate` для представления выражений с одной переменной.
 - Пример описания выражения `2x-3`:
@@ -369,7 +369,7 @@ new Const(0)
           от четырех аргументов: `a`, `b`, `c`, `x`.
 
 
-## Домашнее задание 6. Функциональные выражения на JavaScript
+## [Домашнее задание 6. Функциональные выражения на JavaScript](https://github.com/xe11us/university/tree/master/programming/second-semester/javascript-functional-object-expression)
 
 1. Разработайте функции `cnst`, `variable`, `add`, `subtract`, `multiply`, `divide`, `negate` для вычисления выражений с одной переменной.
 2. Функции должны позволять производить вычисления вида:
@@ -433,7 +433,7 @@ println(expr(5));
         * `cos` – косинус, `pi cos` равно -1.
 
 
-## Домашнее задание 5. Вычисление в различных типах
+## [Домашнее задание 5. Вычисление в различных типах](https://github.com/xe11us/university/tree/master/programming/second-semester/java-expression)
 
 1. Добавьте в программу разбирающую и вычисляющую выражения поддержку различных типов.
 - Первым аргументом командной строки программа должна принимать указание на тип, в котором будут производится вычисления:
@@ -486,7 +486,7 @@ println(expr(5));
         * `b` – вычисления в `byte` без проверки на переполнение.
 
 
-## Домашнее задание 4. Очередь на связном списке
+## [Домашнее задание 4. Очередь на связном списке](https://github.com/xe11us/university/tree/master/programming/second-semester/java-queue)
 
 1. Определите интерфейс очереди `Queue` и опишите его контракт.
 2. Реализуйте класс `LinkedQueue` — очередь на связном списке.
@@ -525,7 +525,7 @@ println(expr(5));
     * Дублирования кода быть не должно
 
 
-## Домашнее задание 3. Очередь на массиве
+## [Домашнее задание 3. Очередь на массиве](https://github.com/xe11us/university/tree/master/programming/second-semester/java-queue)
 
 1. Найдите инвариант структуры данных «[очередь](http://ru.wikipedia.org/wiki/Очередь_(программирование))». Определите функции, которые необходимы для реализации очереди. Найдите их пред- и постусловия, при условии что очередь не содержит `null`.
 2. Реализуйте классы, представляющие циклическую очередь с применением массива.
@@ -599,7 +599,7 @@ println(expr(5));
     * Класс должен иметь имя `BinarySearchShift`
 
 
-## Домашнее задание 1. Обработка ошибок
+## [Домашнее задание 1. Обработка ошибок](https://github.com/xe11us/university/tree/master/programming/second-semester/java-expression)
 
  1. Доработайте домашнее задание Expression, так что бы выражение строилось по записи вида
 `x * (x - 2)*x + 1`  
