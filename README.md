@@ -5,3 +5,4 @@
 ## [Парадигмы программирования](programming)
 * [Первый семестр](programming/first-semester)
 * [Второй семестр](programming/second-semester)
+## [Операционные системы](os)
