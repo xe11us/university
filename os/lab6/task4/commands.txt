@@ -1,0 +1,2 @@
+driverquery > DRIVERS.txt
+more +4 DRIVERS.txt | sort -r > SORTED_DRIVERS.txt

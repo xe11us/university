@@ -1,0 +1,11 @@
+Comparing files all_info.txt and NEW_INFO.TXT
+***** all_info.txt
+        TYPE               : 30  WIN32  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+***** NEW_INFO.TXT
+        TYPE               : 30  WIN32  
+        STATE              : 7  PAUSED 
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+*****
+

@@ -1,0 +1,22 @@
+Странно, что Free 0 B, по факту свободно 47,3 Гб
+Команда mem могла помочь, но она работает только на 32-битных системах, а у меня 64
+
+Microsoft DiskPart version 10.0.18362.1171
+
+Copyright (C) Microsoft Corporation.
+On computer: ASUS
+
+DISKPART> 
+  Disk ###  Status         Size     Free     Dyn  Gpt
+  --------  -------------  -------  -------  ---  ---
+  Disk 0    Online          238 GB      0 B        *
+
+DISKPART> Получено с помощью команды systeminfo | findstr "Memory" > systeminfo.txt
+Total Physical Memory:     8 074 MB
+Available Physical Memory: 3 680 MB
+Virtual Memory: Max Size:  10 605 MB
+Virtual Memory: Available: 5 106 MB
+Virtual Memory: In Use:    5 499 MB
+Получено с помощью команды ver > version.txt
+Microsoft Windows [Version 10.0.18363.1256]
+

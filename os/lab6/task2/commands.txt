@@ -1,0 +1,9 @@
+2.1
+hostname
+net share temp=C:\LAB6\temp /grant:everyone,FULL
+2.2
+robocopy C:\Windows \\Asus\temp /z /min:2097152
+2.3
+schtasks /create /tn "copy" /sc minute /mo 1 /tr "cmd /c C:\LAB6\copy.cmd"
+2.4
+taskkill /pid %pid%

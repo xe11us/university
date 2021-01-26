@@ -1,0 +1,14 @@
+3.1
+sc queryex type=service state=all > all_info.txt
+3.2
+sc pause LanmanWorkstation
+(Службы DNS-client говорят, что их нельзя остановить)
+C:\Windows\System32\timeout.exe 3
+(Обычно должна работать просто комманда timeout 3, но у меня две команды timeout и по умолчанию стоит не та, которая нам нужна, поэтому приходится вызывать нужную по полному пути)
+sc queryex type=service state=all > new_info.txt
+
+cmd /c compare.cmd
+Содержимое compare.cmd:
+fc all_info.txt new_info.txt > result.txt
+
+sc continue LanmanWorkstation

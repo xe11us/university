@@ -1,0 +1,1 @@
+fc all_info.txt new_info.txt > result.txt

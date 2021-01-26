@@ -1,0 +1,13 @@
+1.1
+(echo list disk) | diskpart > diskpart.txt
+systeminfo | findstr "Memory" > systeminfo.txt
+ver > ver.txt
+1.2
+md \LAB6\TEST
+cd \LAB6\TEST
+copy /y \LAB6 \LAB6\TEST
+1.3
+copy *.txt copy.txt
+1.4
+for /f %i in ('dir /b/a-d/od/t:c') do @set LAST=%i
+for /f %i in ('dir /b/a-d/od/t:c') do @if not %i==%LAST% del %i
