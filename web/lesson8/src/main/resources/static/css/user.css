@@ -1,0 +1,17 @@
+.userbox {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    min-height: calc(128px + 1rem);
+}
+
+.main-info {
+    margin-left: 0.5rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.user-title-photo {
+    float:right;
+    padding: 0.5rem;
+    position: relative;
+}

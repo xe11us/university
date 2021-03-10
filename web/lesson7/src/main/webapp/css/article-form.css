@@ -1,0 +1,14 @@
+.article.form-box .field .name {
+    width: 7rem;
+}
+
+.article.form-box .error {
+    margin-left: 8rem;
+}
+
+.article.form-box .field textarea {
+    min-width: 50%;
+    max-width: 125%;
+    min-height: 1rem;
+    max-height: 40rem;
+}

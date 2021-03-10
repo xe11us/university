@@ -1,0 +1,20 @@
+.comment * {
+    padding: 0.5em;
+    word-break: break-all;
+}
+
+.comment .login {
+    border-right: 1px solid var(--datatable-color);
+    width: 5rem;
+}
+
+.comment-field textarea {
+    min-width: 15rem;
+    max-width: 15rem;
+}
+
+.comment-field .error {
+    clear: both;
+    color: var(--error-color);
+    font-size: 0.75rem;
+}
